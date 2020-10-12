@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  flatris:
+    build:
+      context: .
+      network: host
+    ports:
+    - "3000:3000"
